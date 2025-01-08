@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#welcome-page{
+    background: linear-gradient(180deg,
+    rgba(10, 10, 10, 0.736) -19.5%,
+    rgba(5, 5, 5, 0.532) 10%), url(../images/Banner\ Image.png); 
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.new-year-banner{
+    width: 632px;
+}
+.new-year-greeting{
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: regular;
+    text-align: center;
+    
+    
+}
+.new-year-party{
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    line-height: 95px;
+    text-align: center;
+}
