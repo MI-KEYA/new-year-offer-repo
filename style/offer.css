@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 #welcome-page{
      background: linear-gradient(180deg,
-    rgba(10, 10, 10, 0.736) -19.5%,
-    rgba(5, 5, 5, 0.532) 10%), url(../images/Banner\ Image.png); 
+     #070211,#07021100), url(../images/Banner\ Image.png); 
     background-size: cover;
     height: 600px;
     background-position: center;
@@ -63,4 +62,84 @@
 .new-year-photo{
     margin-top: 48px;
     
+}
+#third-page{
+    background: linear-gradient(to right,
+    #070211,#07021100), url(../images/Vectorrr.png);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    display: flex; 
+    border-radius: 8px;
+    margin: 50px 140px auto 140px;
+}
+.party-info{
+    display: flex;
+}
+.party-welcome-msg{
+    font-family: Merriweather;
+    font-size: 64px;
+    color: #FFFFFF;
+    line-height: 88px;
+    font-weight: black;
+    margin-left: 126px;
+    margin-top: 126px;
+    margin-bottom: 24px;
+}
+.party-description{
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 126px;
+}
+.join-btn{
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: auto;
+    border: none;
+    margin-left: 158px;
+    margin-top: 48px;
+}
+.party-image{
+    margin-top: 68px; 
+    margin-right: 138px;
+}
+#fourth-page{
+    background: linear-gradient(180deg, #ff00004c,#ff000000);
+    background-size: cover;
+    height: 600px;
+    border-radius: 8px;
+    margin: 120px 140px auto 140px;
+    text-align: center;
+    padding: 100px 386px 110px 385px;
+    
+}
+.party-tookplace{
+    width: 549px;
+}
+span{
+    color: #FF0000;
+}
+.place, .date, .time{
+    font-family: Inter;
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 56px;
+
+}
+.join-now-btn{
+    
+    color: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FF0000;
+    width: 167px;
+    height: 56px; 
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-top: 48px;
 }
