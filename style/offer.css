@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 #welcome-page{
      background: linear-gradient(180deg,
      #070211,#07021100), url(../images/Banner\ Image.png); 
@@ -211,4 +215,42 @@ span{
     line-height: 32px;
     color: #07021190;
     
+}
+#footer-section{
+    background: #000;
+    color: white;
+    width: 1400px;
+    height: 509px;
+    margin: 120px 140px auto 100px;
+}
+.top-footer-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 275px 50px 140px;
+
+}
+.social-icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 492px 48px 500px;
+}
+i{
+    width: 64px;
+    height: 64px;
+}
+hr{
+    width: 1220px;
+    margin: 0 auto;
+    color: #ffffff0a;
+
+}
+.bottom-footer-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 275px 120px 140px;
+}
+.copyright, .subscription, .contact-website, .contact-number, .address{
+    font-family: Inter;
+    font-size: 15px;
 }
