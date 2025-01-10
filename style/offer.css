@@ -143,3 +143,72 @@ span{
     color: #FFFFFF;
     margin-top: 48px;
 }
+#fifth-page{
+    height: 464px;
+    width: 1320px;
+    margin: 120px 140px auto 140px;
+}
+.new-offer{
+    display: flex;
+}
+.left-div{
+    padding: 104px 70px 104px 0;
+    height: 255px;
+    width: 393px;
+}
+.new-offer-subtitle{
+    font-family: Inter;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 600px;
+    margin-bottom: 16px;
+}
+.new-offer-title{
+    font-family: Merriweather;
+    font-size: 48px;
+    color:#070211;
+    font-weight: 700px;
+    margin-bottom: 22px;
+}
+.new-offer-description{
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    color: #07021190;
+}
+.middle-div{
+    height: 463px;
+    width: 463px;
+    border-radius: 50% 50%;
+    border: 15px solid #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-image{
+    margin: 49px;
+}
+.right-div{
+    margin-left: 118px;
+    margin-top: 112px;
+    
+}
+.right-div-content{
+    width: 276px;
+    height: 170px;
+    margin-bottom: 43px;
+    
+} 
+.new-year-title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FF0000;
+}
+.new-year-description{
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    color: #07021190;
+    
+}
